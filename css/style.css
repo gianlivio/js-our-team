@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px; 
+    margin-bottom: 20px;
+}
+
+.team-photo {
+    width: 100%;
+    display: block;
+}
+
+.team-name {
+    font-size: 1.1em;
+    margin: 16px;
+}
+
+.team-role {
+    color: #555;
+    margin: 0 16px 16px;
+}
